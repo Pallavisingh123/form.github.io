@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1cd64b9365.js" crossorigin="anonymous"></script>
+    <title>Login to iEducatecoda</title>
+    <style>
+      
+        @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Heebo&family=Open+Sans&family=Ubuntu:wght@500&display=swap');
+
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-image: url(bg3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .container {
+            color: white;
+            position: absolute;
+          width: 20%;
+            top: 25%;
+            left: 40%;
+        }
+
+        .container h1 {
+            display: inline-block;
+            border-bottom: 5px solid white;
+            margin-bottom: 65px;
+            font-size: 40px;
+            padding: 10px 0;
+            width: 70%;
+            font-family: 'Heebo', sans-serif;
+
+        }
+
+        .box {
+            width: 100%;
+            margin: 9px;
+            border-bottom: 2px solid white;
+        }
+
+        .box i {
+            width: 35px;
+           
+            text-align: center;
+        }
+
+        .box input {
+            width: 80%;
+            outline: none;
+            color: white;
+            margin: 5px 0;
+            font-size: 20px;
+         border: none;
+         background: none;
+            margin: 6px 0px;
+            @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600&family=Heebo&family=Open+Sans&family=Ubuntu:wght@500&display=swap');
+        }
+
+        .btn {
+            cursor: pointer;
+            outline: none;
+            padding: 10px 21px;
+            width: 35%;
+            border-radius: 10%;
+            margin: 22px 0;
+            border: 2px solid white;
+            font-size: 18px;
+            background: none;
+            color: white;
+         
+
+        }
+        .btn:hover {
+            cursor: pointer;
+           background-color: white;
+            color: red;
+         
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Log In </h1>
+       
+        <div class="box">
+            <i class="fa-solid fa-envelope"></i>
+           
+            <input type="E-mail" name="email" id="email" placeholder="Enter your Email">
+        </div>
+
+        <div class="box">
+            <i class="fa-solid fa-key"></i>
+            <input type="password" name="passowrd" id="password" placeholder="Enter yor password">
+        </div>
+        <button class="btn"> Sign In</button>
+    </div>
+</body>
+
+</html>
